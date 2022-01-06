@@ -12,16 +12,37 @@ h1{
 h2{
     font-size: 40px;
     text-align: center ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h4{
     font-size: 40px;
     line-height: normal;
     padding-bottom: .0001px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h5{
+    font-size: 40px;
+    line-height: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h6{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    
+
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .color{
     color: rgba(233, 176, 90, 0.897);
-
 }
+
 .first-section{
     display: flex;
     padding-top: 5%;
@@ -95,6 +116,7 @@ h4{
     background-position: left;
     background-size: 200px;
     margin-left: 10px;
+    margin-bottom: 5%;
 
 }
 .third-section img{
@@ -104,5 +126,26 @@ h4{
 .third-section-div1{
     width: 100%;
 }
-
+.fourth-section{
+    display: flex;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    background-position-y: bottom;
+}
+.fourth-section img{
+    width: 70%;
+}
+.fourth-section-div1{
+    width: 50%;
+    padding-left: 10%;
+}
+.paragraph{
+    text-align: center;
+    color: white;
+}
+.six-section{
+    background-color: rgb(3, 3, 36);
+}
 

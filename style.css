@@ -13,6 +13,11 @@ h2{
     font-size: 40px;
     text-align: center ;
 }
+h4{
+    font-size: 40px;
+    line-height: normal;
+    padding-bottom: .0001px;
+}
 .color{
     color: rgba(233, 176, 90, 0.897);
 
@@ -44,23 +49,60 @@ h2{
     padding-left: 30px;
 }
 .second-section{
-    padding-top: 10px;
-    padding-left: 5px;
+    
+    display:flex;
+    margin-bottom: 10px;
 }
-.second-section-table{
-    display: flex;
-    width:30%;
+
+.second-section-table img{
+    width: 60%;
     
 }
-.second-section-table img{
-    width: 20%;
+.second-section-table{
+    width: auto;
 }
 #second-section-div1{
     background-color: rgb(163, 209, 240);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 15px;
+    margin-left: 150px;
+    box-sizing: 5px;
+    
 }
 #second-section-div2{
     background-color: rgb(218, 171, 163);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 15px;
 }
+
 #second-section-div3{
     background-color: rgb(212, 207, 177);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 15px;
+    margin-right: 150px;
 }
+.third-section{
+    display: flex;
+    padding: 90px 20px 20px 50px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+    margin-left: 10px;
+
+}
+.third-section img{
+    width: 50%;
+    padding-left: 50px;
+}
+.third-section-div1{
+    width: 100%;
+}
+
+
